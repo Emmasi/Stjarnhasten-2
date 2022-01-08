@@ -9,7 +9,7 @@
   </head>
   <body>
     <header>
-      <nav>
+        <nav class="meny">
         <a href="Startsidan.html"><h3>Stjärnhästen</h3></a>
         <ol>
           <a href="OmOss.html"><li>Om oss</li></a>
@@ -22,6 +22,19 @@
       <!-- <section class="overimg blurr">
           <a href="Startsidan.html"><h1>Stjärnhästen</h1></a>
         </section> -->
+        <div class="dropdown meny2" id="nav-icon3" onclick="myFunction()">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <div class="dropdown-content" id="myLinks">
+                <a href="OmOss.html">Om oss</a>
+                <a href="Hastar.html"> Hästar </a>
+                <a href="Lektioner.html">Lektion</a>
+                <a href="Priser.html">Pris</a>
+                <a href="kontakta.html">Kontakta</a>
+            </div>
+          </div>
     </header>
     <main class="middelinfo">
       <section class="container">
@@ -64,4 +77,14 @@
       </div>
     </footer>
   </body>
+  <script>
+    function myFunction() {
+var x = document.getElementById("myLinks");
+if (x.style.display === "block") {
+  x.style.display = "none";
+} else {
+  x.style.display = "block";
+}
+}
+</script>
 </html>
