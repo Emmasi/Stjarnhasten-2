@@ -180,18 +180,28 @@
     justify-content: space-around;
     align-items: center;
   }
+  .centrerbild {
+    justify-self: center;
+    align-self: center;
+  }
+  iframe {
+    width: 250px;
+    height: 180px;
+    margin:auto;
+    margin-bottom: 20px;
+  }
   span img {
     border-radius: 8px;
     margin: 15px;
-    max-width: 360px;
+    max-width: 330px;
   }
   footer {
     background-color: #11999e;
     width: 100%;
     height: 50px;
+    padding: 10px;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    align-items: flex-end;
   }
   footer p {
     color: white;
@@ -201,6 +211,7 @@
   .underinfo {
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
   }
   .lank {
     color: white;
