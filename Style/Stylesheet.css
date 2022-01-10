@@ -289,9 +289,6 @@
   nav h3 {
     margin: 0px;
   }
-  .dropdown {
-    display: none;
-  }
   ol {
     display: flex;
     flex-direction: row;
