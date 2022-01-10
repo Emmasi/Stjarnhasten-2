@@ -109,7 +109,15 @@
     left: 50%;
   }
   .dropdown {
+    position: relative;
+  }
+  .dropdown-content {
+    display: none;
     position: absolute;
+    /* background-color: #f1f1f1; */
+    /* width: 70px;*/
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    z-index: 1;
   }
   .dropdown-content a {
     display: block;
@@ -127,6 +135,11 @@
   .dropdown-content a:hover {
     background-color: #11999e;
     color: #e4f6f6;
+  }
+  .dropdown-content-start {
+    display: none;
+    position: absolute;
+    z-index: 1;
   }
   .dropdown-content-start a{
     display: block;
